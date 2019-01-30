@@ -3,7 +3,7 @@ const subdomain = require('express-subdomain');
 const https = require('https');
 const fs = require('fs');
 
-const staticRootDir = '/Users/kliput/Onedata/onedata-gui-static';
+const staticRootDir = `${__dirname}/static/onedata-gui-static`;
 const onezoneId = 'onezone';
 
 const clusters = [
